@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 .reveal-modal {
@@ -19,7 +19,7 @@ html {
 
 body {
   color: #77797c;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Syne", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: black;
@@ -44,7 +44,7 @@ h1 {
 }
 
 h2 {
-  font: 300 24px "Syne", sans-serif;
+  font: 300 24px "Poppins", sans-serif;
   margin-bottom: 25px;
 }
 
@@ -77,7 +77,7 @@ code {
 }
 
 p {
-  font: 400 14px / 24px "Inter", sans-serif;
+  font: 400 14px / 24px "Roboto", sans-serif;
   margin-bottom: 30px;
   text-rendering: optimizeLegibility;
 }
@@ -133,7 +133,7 @@ button,
   font-family: inherit;
   -webkit-transition: 320ms;
   transition: 320ms;
-  font-family: "Inter";
+  font-family: "Roboto";
 }
 
 button.secondary,
@@ -142,7 +142,8 @@ button.secondary,
   border: 2px solid #010001;
   color: #010001;
   padding: 16px 25px;
-  font: 400 14px "Inter", sans-serif;
+  font: 400 14px "Roboto", sans-serif;
+  border-radius: 5px;
 }
 
 button.secondary:hover,
@@ -150,6 +151,7 @@ button.secondary:hover,
   background: #010001 !important;
   color: #fff;
   opacity: 1;
+  border-radius: 20px;
 }
 
 button.large,
@@ -178,7 +180,7 @@ ol,
 dl {
   list-style-position: inside;
   margin-left: 2px;
-  font: 400 14px / 24px "Inter", sans-serif;
+  font: 400 14px / 24px "Roboto", sans-serif;
 }
 
 #footer ul {
@@ -290,12 +292,12 @@ blockquote p {
   font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.03em;
-  font-family: "Inter";
+  font-family: "Roboto";
 }
 
 .nav-link:hover {
-  color: #000;
-  text-decoration: underline;
+  color: #16a193;
+  text-decoration: underline
 }
 
 .w-nav {
@@ -431,7 +433,7 @@ blockquote p {
 
 .sub-intro p {
   color: #4f4f52;
-  font: 400 18px / 30px "Inter", sans-serif;
+  font: 400 18px / 30px "Roboto", sans-serif;
   margin-bottom: 30px;
   text-rendering: optimizeLegibility;
 }
@@ -514,7 +516,7 @@ blockquote p {
 
 .banner-text {
   display: inline-block;
-  font-family: "Inter";
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -531,16 +533,17 @@ blockquote p {
 }
 
 .download-button {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   background-color: #010001;
   font-weight: 600;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .download-button:hover {
   background-color: #010001;
   opacity: 0.8;
+  border-radius: 5px;
 }
 
 #other-downloads {
@@ -555,7 +558,7 @@ blockquote p {
 
 #hero h1 {
   color: #2d2d2d;
-  font: 600 48px / 56px "Syne", sans-serif;
+  font: 600 48px / 56px "Poppins", sans-serif;
   margin: 0;
   padding-top: 80px;
   text-align: center;
@@ -563,7 +566,7 @@ blockquote p {
 
 #hero p {
   color: #262626;
-  font: 400 20px / 30px "Inter", sans-serif;
+  font: 400 20px / 30px "Roboto", sans-serif;
   text-align: center;
   width: 70%;
   margin: 20px auto 40px;
@@ -598,7 +601,7 @@ blockquote p {
 }
 
 #hero-cta-button {
-  font: 400 18px "Inter", sans-serif;
+  font: 400 18px "Roboto", sans-serif;
   text-align: center;
   padding-left: 1.5em;
   padding-right: 1.5em;
@@ -640,7 +643,7 @@ blockquote p {
 }
 
 #sub-hero-wrapper h2 {
-  font: 600 27px "Syne", sans-serif;
+  font: 600 27px "Poppins", sans-serif;
   margin-bottom: 22px;
 }
 
@@ -662,13 +665,14 @@ blockquote p {
   padding: 20px 30px;
   height: 260px;
   border: 1px solid #e6e6e6;
-  border-radius: 5px;
+  border-radius: 20px;
   transition: all 0.2s ease-in-out;
 }
 
 .card-container:hover {
   box-shadow: 1px 1px 40px 1px rgba(214, 214, 214, 0.534);
   transition: all 0.2s ease-in-out;
+  border-radius: 5px;
 }
 
 .card-number {
@@ -697,7 +701,7 @@ blockquote p {
 
 .card-heading {
   font-weight: 600;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding-top: 14px;
   color: #361415;
   font-size: 17px;
@@ -760,7 +764,7 @@ blockquote p {
 .card {
   border-radius: 3px;
   color: #2098f5;
-  font: 400 16px / 21px "Inter", sans-serif;
+  font: 400 16px / 21px "Rubik", sans-serif;
   line-height: 1.5;
   margin-bottom: 20px;
   word-wrap: break-word;
@@ -782,7 +786,7 @@ blockquote p {
 
 .card footer {
   color: #484848;
-  font: 300 12px / 18px "Inter", sans-serif;
+  font: 300 12px / 18px "Roboto", sans-serif;
   text-align: right;
 }
 
@@ -825,7 +829,7 @@ blockquote p {
 
 #footer h5 {
   color: #fff;
-  font: 300 14px / 24px "Inter", sans-serif;
+  font: 300 14px / 24px "Roboto", sans-serif;
 }
 
 #about {
@@ -834,7 +838,7 @@ blockquote p {
 
 #about p {
   color: #a6aab2;
-  font: 400 13px / 24px "Inter", sans-serif;
+  font: 400 13px / 24px "Roboto", sans-serif;
   text-align: center;
 }
 
