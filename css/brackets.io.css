@@ -92,7 +92,7 @@ a {
 a:hover,
 a:focus {
   color: #125282;
-  font-size: 20px;
+  font-size: 110%;
 }
 
 a:active {
@@ -298,6 +298,7 @@ blockquote p {
 
 .nav-link:hover {
   color: #16a193;
+  font-size: 130%
 }
 
 .w-nav {
