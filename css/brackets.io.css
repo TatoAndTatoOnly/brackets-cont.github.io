@@ -166,7 +166,7 @@ button:hover,
 button:focus,
 .button:hover,
 .button:focus {
-  background: #010001;
+  background: #0066ff;
   opacity: 0.8;
 }
 
@@ -542,7 +542,7 @@ blockquote p {
 }
 
 .download-button:hover {
-  background-color: #010001;
+  background-color: ##0066ff;
   opacity: 0.8;
   border-radius: 5px;
 }
