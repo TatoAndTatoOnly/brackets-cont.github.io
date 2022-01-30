@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 .reveal-modal {
   display: none;
@@ -149,10 +150,11 @@ button.secondary,
 
 button.secondary:hover,
 .button.secondary:hover {
-  background: #010001 !important;
+  background: #0066ff !important;
   color: #fff;
   opacity: 1;
   border-radius: 20px;
+  border-color: #0066ff;
 }
 
 button.large,
@@ -297,7 +299,7 @@ blockquote p {
 }
 
 .nav-link:hover {
-  color: #16a193;
+  color: #0066ff;
   font-size: 130%
 }
 
@@ -542,7 +544,7 @@ blockquote p {
 }
 
 .download-button:hover {
-  background-color: ##0066ff;
+  background-color: #0066ff;
   opacity: 0.8;
   border-radius: 5px;
 }
@@ -666,7 +668,7 @@ blockquote p {
   padding: 20px 30px;
   height: 260px;
   border: 1px solid #e6e6e6;
-  border-radius: 20px;
+  border-radius: 30px;
   transition: all 0.2s ease-in-out;
 }
 
